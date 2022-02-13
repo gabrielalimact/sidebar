@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body >
+    <nav class='sidebar-nav'>
+        <header>
+            <div class="image-text">
+                <span class='logo'>
+                    <i class='bx bx-coffee-togo icon'></i>                    
+                </span>
+                <span class='text'>Side Navigation</span>             
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search-alt logo' ></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-links">
+                        <a href="#">
+                            <i class='bx bx-home'></i>
+                            <span class="text nav-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="#">
+                            <i class='bx bx-user'></i>
+                            <span class="text nav-text">About Me</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="#contact">
+                            <i class='bx bx-envelope'></i>
+                            <span class="text nav-text">Contact</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="#">
+                            <i class='bx bx-terminal' ></i>
+                            <span class="text nav-text">Some Projects</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="https://github.com/gabrielalimact" target="_blank">
+                            <i class='bx bxl-github' ></i>
+                            <span class="text nav-text">GitHub</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="https://www.linkedin.com/in/gabrielalimact/" target="_blank">
+                            <i class='bx bxl-linkedin' ></i>
+                            <span class="text nav-text">LinkedIn</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="switch-mode">
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon logo moon'></i>
+                        <i class='bx bx-sun logo sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <main>
+
+        <section class="home">
+            <div class="image">
+                <img class='img-perfil' src="https://github.com/gabrielalimact.png" alt="">
+            </div>
+            <div class="text">
+                <h1>Gabriela Cena</h1>
+                <h4>Front End Developer</h4>
+            </div>
+        </section>
+        <!-- <section class="contact" id="contact">
+            <div class="text">
+                You can contact me at <a href="mailto:lgcl@ic.ufal.br"></a>
+            </div>
+        </section> -->
+    </main>
+    <script src="script.js"></script>
+
+</body>
+</html>
